@@ -1,0 +1,53 @@
+.screen{
+  margin-bottom: 260px;
+}
+
+.top_text{
+  max-width: 970px;
+}
+
+.middle_text{
+  max-width: 670px;
+}
+
+.small_bottom_text{
+  margin-top: 30px;
+}
+
+.divider_1{
+  position: relative;
+  top: -65px;
+}
+
+.mob_divider_1{
+  display: none;
+}
+
+.divider_2{
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.onlyDesktopBlock{
+  display: block;
+}
+
+@media only screen and (max-width: 992px) {
+  .divider_1{
+    display: none;
+  }
+
+  .mob_divider_1{
+    display: block;
+    position: relative;
+    top: -40px;
+  }
+
+  .screen{
+    margin-bottom: 80px;
+  }
+
+  .onlyDesktopBlock{
+    display: none;
+  }
+}

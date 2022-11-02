@@ -1,0 +1,39 @@
+.block{
+  width: 100%;
+  display: block;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.small_line{
+  height: 130px;
+  background-image: url("../../images/small_line.png");
+}
+
+.mob_small_line{
+  height: 80px;
+  background-image: url("../../images/mob_small_line.png");
+}
+
+.mob_middle_line{
+  height: 100px;
+  background-image: url("../../images/mob_middle_line.png");
+}
+
+
+.middle_line{
+  height: 280px;
+  background-image: url("../../images/middle_line.png");
+}
+
+.middle_plus_line{
+  height: 265px;
+  background-image: url("../../images/middle_plus_line.png");
+}
+
+.big_line{
+  height: 415px;
+  background-image: url("../../images/big_line.png");
+}

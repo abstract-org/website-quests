@@ -1,0 +1,35 @@
+.accordionElement{
+  border-radius: 0 !important;
+  margin-top: 0 !important;
+}
+
+.summaryClose{
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  color: #1C1A1A !important;
+}
+
+.summaryOpen{
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  padding-top: 30px !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  color: #BFBFBF !important;
+}
+
+.bottomBorder{
+  border-bottom: 1px solid #BFBFBF;
+  width: 100%;
+}

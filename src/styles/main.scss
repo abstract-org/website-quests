@@ -1,0 +1,120 @@
+.title_1{
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.title_2{
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+}
+
+.title_3{
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.title_4{
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: -0.03em;
+}
+
+.big_text{
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 49px;
+}
+
+.regular_text{
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 130%;
+}
+
+.small_text{
+  font-family: 'Helvetica', sans-serif;;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.blue_text{
+  color: #2A00A3;
+}
+
+.white_text{
+  color: #ffffff;
+}
+
+.black_text{
+  color: #1C1A1A;
+}
+
+.gray_text{
+  color: #BFBFBF;
+}
+
+@media only screen and (max-width: 1200px) {
+  .title_1{
+    font-size: 31px;
+    line-height: 36px;
+  }
+
+  .big_text{
+    font-size: 31px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .title_3 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .small_text{
+    font-size: 16px;
+  }
+
+  .title_4{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+  }
+
+  .small_text{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title_3 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .small_text{
+    font-size: 14px;
+  }
+}

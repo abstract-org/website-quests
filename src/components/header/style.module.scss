@@ -1,0 +1,46 @@
+.header{
+  background-color: #2A00A3;
+  padding-top: 165px;
+  padding-bottom: 130px;
+  height: 517px;
+}
+
+.headerTitle{
+  color: #fff;
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -0.03em;
+}
+
+.title_block{
+  max-width: 971px;
+}
+
+.logo{
+  width: 106px;
+  margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 992px) {
+  .headerTitle{
+    margin-left: 10px;
+    font-size: 40px;
+    line-height: 130%;
+    margin-top: 177px;
+  }
+
+  .logo{
+    margin-left: 10px;
+    width: 79px;
+    margin-bottom: 0;
+  }
+
+  .header{
+    height: 626px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

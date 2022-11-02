@@ -1,0 +1,49 @@
+.screen{
+  margin-bottom: 80px;
+}
+
+.divider_1{
+  position: relative;
+  top: -132px;
+}
+
+.info_block{
+  margin-top: -68px;
+  margin-bottom: 200px;
+}
+
+.dot{
+  width: 10px;
+  margin-bottom: 30px;
+}
+
+.benefits_list_space{
+  margin-top: 60px;
+}
+
+.mobileBlock{
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .divider_1 {
+    display: none;
+  }
+
+  .desktopBlock{
+    display: none;
+  }
+
+  .info_block{
+    margin-top: 68px;
+  }
+
+  .mobileBlock{
+    margin-top: 40px;
+    display: block;
+  }
+
+  .info_block{
+    margin-bottom: 90px;
+  }
+}

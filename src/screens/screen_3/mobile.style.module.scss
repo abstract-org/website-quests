@@ -1,0 +1,110 @@
+.screen{
+  background-color: #2A00A3;
+  display: none;
+  padding-top: 80px;
+  padding-bottom: 140px;
+}
+
+.second_research_text{
+  margin-bottom: 10px;
+}
+
+.text{
+  width: 154px;
+}
+
+.numLine1, .numLine4{
+  max-width: 239px;
+}
+
+.numLine2, .numLine3{
+  max-width: 114px
+}
+
+.researchBlock{
+  position: relative;
+  height: 600px;
+  width: 390px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../images/infinity_mobile.png");
+  background-size: 370px;
+}
+
+.block1{
+  position: absolute;
+  width: 239px;
+  height: 216px;
+  background-image: url("../../images/mob_number_1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+
+  .text{
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+}
+
+.block2{
+  position: absolute;
+  right: 0;
+  height: 296px;
+  width: 114px;
+  background-image: url("../../images/mob_number_2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  .text{
+    position: absolute;
+    right: 10px;
+    margin-top: 5px;
+  }
+}
+
+.block3{
+  position: absolute;
+  bottom: 0;
+  height: 296px;
+  width: 114px;
+  background-image: url("../../images/mob_number_3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+
+  .text{
+    position: absolute;
+    bottom: -5px;
+    left: 15px;
+  }
+}
+
+.block4{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 377px;
+  width: 239px;
+  height: 288px;
+  background-image: url("../../images/mob_number_4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  .text{
+    position: absolute;
+    right: 15px;
+    margin-top: 98px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .screen{
+    display: block;
+  }
+
+  .screen .container{
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,73 @@
+.screen{
+  background-color: #2A00A3;
+  padding-bottom: 232px;
+}
+
+.second_research_block{
+  padding-top: 140px;
+  height: 790px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-image: url("../../images/infinity.png");
+}
+
+.second_research_block_space{
+  margin-top: 65px;
+}
+
+.numLine1{
+  max-width: 539px;
+}
+
+.numLine2{
+  max-width: 467px;
+}
+
+.second_research_text{
+  width: 251px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .numLine1{
+    max-width: 400px;
+  }
+
+  .numLine2{
+    max-width: 340px;
+  }
+
+  .second_research_block{
+    background-size: 65%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .numLine1{
+    max-width: 300px;
+  }
+
+  .numLine2{
+    max-width: 250px;
+  }
+
+  .second_research_block{
+    background-size: 80%;
+    background-image: url("../../images/infinity.png");
+  }
+
+  .point3research, .point2research{
+    text-align: center !important;
+  }
+
+  .screen{
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .screen{
+    display: none;
+  }
+}
