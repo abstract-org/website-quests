@@ -21,10 +21,10 @@ export const Screen_3 = (props) => {
                                 <Fade direction="left" delay={300}>
                                     <img className={styles.numLine1} src={numLine1}/>
                                     <div className={"title_3 white_text " + styles.second_research_text}>
-                                        {content.metadata.block_2__point_1_header}
+                                        {content.metadata.block_2__bullet_1_header}
                                     </div>
                                     <div className={"small_text gray_text " + styles.second_research_text}>
-                                        {content.metadata.block_2__point_1_description}
+                                        {content.metadata.block_2__bullet_1_description}
                                     </div>
                                 </Fade>
                             </div>
@@ -38,10 +38,10 @@ export const Screen_3 = (props) => {
                                         <div className="col-md-2 d-lg-none"> </div>
                                         <div className="col-md-10 col-lg-12">
                                             <div className={"title_3 white_text " + styles.second_research_text}>
-                                            {content.metadata.block_2__point_2_header}
+                                            {content.metadata.block_2__bullet_2_header}
                                             </div>
                                             <div className={"small_text gray_text " + styles.second_research_text}>
-                                                {content.metadata.block_2__point_2_description}
+                                                {content.metadata.block_2__bullet_2_description}
                                             </div>
                                         </div>
                                     </div>
@@ -56,10 +56,10 @@ export const Screen_3 = (props) => {
                                         <div className="col-6"> </div>
                                         <div className="col-6 d-flex flex-column align-items-end">
                                             <div className={"title_3 white_text " + styles.second_research_text}>
-                                            {content.metadata.block_2__point_2_header}
+                                            {content.metadata.block_2__bullet_3_header}
                                             </div>
                                             <div className={"small_text gray_text " + styles.second_research_text}>
-                                                {content.metadata.block_2__point_2_description}
+                                                {content.metadata.block_2__bullet_3_description}
                                             </div>
                                         </div>
                                     </div>
@@ -75,10 +75,10 @@ export const Screen_3 = (props) => {
                                         <div className="col-6"> </div>
                                         <div className="col-6 d-flex flex-column align-items-end">
                                             <div className={"title_3 white_text " + styles.second_research_text}>
-                                            {content.metadata.block_2__point_3_header}
+                                            {content.metadata.block_2__bullet_4_header}
                                             </div>
                                             <div className={"small_text gray_text " + styles.second_research_text}>
-                                            {content.metadata.block_2__point_3_description}
+                                            {content.metadata.block_2__bullet_4_description}
                                             </div>
                                         </div>
                                     </div>
