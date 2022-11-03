@@ -9,7 +9,6 @@ import {Screen_4} from "../screens/screen_4";
 
 const IndexPage = ({ data }) => {
     const pageContent = data.allCosmicjsResearchPartners.edges[0].node;
-  console.log(pageContent)
     return (
         <main>
             <Header content={pageContent} />

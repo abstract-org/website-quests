@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Quests`,
-    siteUrl: `https://quests.io`,
+    siteUrl: `https://getquest.io`,
   },
   graphqlTypegen: true,
   plugins: [
