@@ -18,7 +18,7 @@ export const Screen_3 = (props) => {
                     <div className={styles.second_research_block}>
                         <div className="row">
                             <div className="col-6">
-                                <Fade direction="left" delay={300}>
+                                <Fade triggerOnce direction="left" delay={300}>
                                     <img className={styles.numLine1} src={numLine1}/>
                                     <div className={"title_3 white_text " + styles.second_research_text}>
                                         {content.metadata.block_2__bullet_1_header}
@@ -30,7 +30,7 @@ export const Screen_3 = (props) => {
                             </div>
                             <div className="col-6"> </div>
                             <div className={"col-6 " + styles.second_research_block_space}>
-                                <Fade direction="left" delay={600}>
+                                <Fade triggerOnce direction="left" delay={600}>
                                     <div className={"text-start " + styles.point2research}>
                                         <img className={styles.numLine2} src={numLine2}/>
                                     </div>
@@ -48,7 +48,7 @@ export const Screen_3 = (props) => {
                                 </Fade>
                             </div>
                             <div className={"col-6 " + styles.second_research_block_space}>
-                                <Fade direction="right" delay={900}>
+                                <Fade triggerOnce direction="right" delay={900}>
                                     <div className={"text-end " + styles.point3research}>
                                         <img className={styles.numLine2} src={numLine3}/>
                                     </div>
@@ -67,7 +67,7 @@ export const Screen_3 = (props) => {
                             </div>
                             <div className="col-6"> </div>
                             <div className={"col-6 " + styles.second_research_block_space}>
-                                <Fade direction="right" delay={1200}>
+                                <Fade triggerOnce direction="right" delay={1200}>
                                     <div className="text-end">
                                         <img className={styles.numLine1} src={numLine4}/>
                                     </div>
