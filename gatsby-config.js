@@ -55,7 +55,7 @@ module.exports = {
         // Defaults to false
         enableWebVitalsTracking: true,
         // Defaults to https://www.googletagmanager.com
-        selfHostedOrigin: "getquest.io",
+        //selfHostedOrigin: "getquest.io",
       },
     },
     {
@@ -81,7 +81,7 @@ module.exports = {
           // Avoids sending pageview hits from custom paths
           exclude: ["/preview/**"],
           // Defaults to https://www.googletagmanager.com
-          origin: "getquest.io",
+          //origin: "getquest.io",
         },
       },
     },
