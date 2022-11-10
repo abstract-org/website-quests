@@ -8,12 +8,12 @@ export const Header = (props) => {
     return (
         <header className={styles.header}>
             <div className={"container"}>
-                <Slide duration={1000}>
+                <Slide duration={1000} triggerOnce>
                     <img className={styles.logo} src={logo} alt="Quest"/>
                 </Slide>
                 <div className={styles.headerTitle}>
                     <div className={styles.title_block}>
-                        <Fade duration={1000} direction="up">{content.metadata.headline}</Fade>
+                        <Fade triggerOnce duration={1000} direction="up">{content.metadata.headline}</Fade>
                     </div>
                 </div>
             </div>

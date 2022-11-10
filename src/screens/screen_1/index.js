@@ -8,15 +8,15 @@ export const Screen_1 = (props) => {
     return (
         <div className={"container " + styles.screen}>
             <div className={styles.divider_1}>
-                <Fade direction="down"><Divider size="small"/></Fade>
+                <Fade direction="down" triggerOnce><Divider size="small"/></Fade>
             </div>
             <div className={styles.mob_divider_1}>
-                <Fade direction="down"><Divider size="mob-small"/></Fade>
+                <Fade direction="down" triggerOnce><Divider size="mob-small"/></Fade>
             </div>
             <div className="row">
                 <div className="col-12">
                     <div className={"big_text blue_text " + styles.top_text}>
-                        <Fade direction="up">{content.metadata.block_1__heading}</Fade>
+                        <Fade direction="up" triggerOnce>{content.metadata.block_1__heading}</Fade>
                     </div>
                 </div>
                     <div className={"col-12 " + styles.onlyDesktopBlock}>
@@ -26,17 +26,17 @@ export const Screen_1 = (props) => {
                     </div>
                     <div className={"col-6 " + styles.onlyDesktopBlock}>
                         <div className={"title_1 blue_text"}>
-                            <Fade direction="up">{content.metadata.block_1__scroller_fragment_1}</Fade>
-                            <Fade direction="up">{content.metadata.block_1__scroller_fragment_2}</Fade>
+                            <Fade triggerOnce direction="up">{content.metadata.block_1__scroller_fragment_1}</Fade>
+                            <Fade triggerOnce direction="up">{content.metadata.block_1__scroller_fragment_2}</Fade>
                         </div>
                     </div>
                     <div className={"col-6 " + styles.onlyDesktopBlock}>
                         <div className={"regular_text black_text " + styles.middle_text}>
-                            <Fade>{content.metadata.block_1__description}</Fade>
+                            <Fade triggerOnce>{content.metadata.block_1__description}</Fade>
                         </div>
                         <div className={"small_text black_text " + styles.middle_text + " " + styles.small_bottom_text}>
-                            <Fade>{content.metadata.block_1__subdescription}</Fade>
-                            <Fade>{content.metadata.block_1__subdescription_2}</Fade>
+                            <Fade triggerOnce>{content.metadata.block_1__subdescription}</Fade>
+                            <Fade triggerOnce>{content.metadata.block_1__subdescription_2}</Fade>
                         </div>
                     </div>
             </div>

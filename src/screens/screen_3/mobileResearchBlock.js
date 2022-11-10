@@ -7,7 +7,7 @@ export const MobileResearchBlock = () => {
         <div className={styles.screen}>
             <div className="container d-flex justify-content-center">
                 <div className={styles.researchBlock}>
-                    <Fade direction="left" delay={300} className={styles.block1}>
+                    <Fade triggerOnce direction="left" delay={300} className={styles.block1}>
                         <div className={styles.text}>
                             <div className={"title_3 white_text " + styles.second_research_text}>
                                 A researcher creates a Research Block"
@@ -17,7 +17,7 @@ export const MobileResearchBlock = () => {
                             </div>
                         </div>
                     </Fade>
-                    <Fade direction="right" delay={600} className={styles.block2}>
+                    <Fade triggerOnce direction="right" delay={600} className={styles.block2}>
                         <div className={styles.text}>
                             <div className={"title_3 white_text " + styles.second_research_text}>
                                 Anyone can invest in Research Blocks
@@ -27,7 +27,7 @@ export const MobileResearchBlock = () => {
                             </div>
                         </div>
                     </Fade>
-                    <Fade direction="left" delay={900} className={styles.block3}>
+                    <Fade triggerOnce direction="left" delay={900} className={styles.block3}>
                         <div className={styles.text}>
                             <div className={"title_3 white_text " + styles.second_research_text}>
                                 A researcher / investor withdraws money
@@ -37,7 +37,7 @@ export const MobileResearchBlock = () => {
                             </div>
                         </div>
                     </Fade>
-                    <Fade direction="right" delay={1200} className={styles.block4}>
+                    <Fade triggerOnce direction="right" delay={1200} className={styles.block4}>
                         <div className={styles.text}>
                             <div className={"title_3 white_text " + styles.second_research_text}>
                                 Research Continues
