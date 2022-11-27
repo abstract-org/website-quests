@@ -10,24 +10,22 @@ export const Footer = (props) => {
         <footer className={styles.footer}>
             <div className="container">
                 <div className={styles.divider}>
-                    <Fade direction="down" triggerOnce>
+                    <Fade duration={500} direction="down" triggerOnce>
                         <Divider size="big"/>
                     </Fade>
                 </div>
                 <div className={styles.mob_divider}>
-                    <Fade direction="down" triggerOnce>
+                    <Fade duration={500} direction="down" triggerOnce>
                         <Divider size="mob-middle"/>
                     </Fade>
                 </div>
                 <div className={styles.footer_block}>
-                    <Fade direction="up" triggerOnce>
-                        <div className={styles.smallTitle}>{content.metadata.block_4__sub_header}</div>
-                        <div className={"title_4 white_text " + styles.footer_title}>
+                    <div className={styles.smallTitle}>{content.metadata.block_4__sub_header}</div>
+                    <div className={"title_4 white_text " + styles.footer_title}>
                         {content.metadata.block_4__header}
-                        </div>
-                    </Fade>
+                    </div>
                     <div className={"small_text white_text " + styles.footer_text}>
-                        <Fade triggerOnce>{content.metadata.block_4__description}</Fade>
+                        <Fade duration={500} triggerOnce>{content.metadata.block_4__description}</Fade>
                     </div>
                     <SignUp/>
                 </div>

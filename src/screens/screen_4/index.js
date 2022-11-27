@@ -10,7 +10,7 @@ export const Screen_4 = (props) => {
     return (
         <div className={"container " + styles.screen}>
             <div className={styles.divider_1}>
-                <Fade triggerOnce direction="down">
+                <Fade duration={500} triggerOnce direction="down">
                     <Divider size="middle-plus"/>
                 </Fade>
             </div>
@@ -18,16 +18,16 @@ export const Screen_4 = (props) => {
                     <div className="row">
                         <div className="col-lg-6 col-md-12">
                             <div className={"title_1 blue_text"}>
-                                <Fade triggerOnce direction="up">{content.metadata.block_3__header}</Fade>
+                                <Fade duration={500} triggerOnce direction="up">{content.metadata.block_3__header}</Fade>
                             </div>
                         </div>
                         <div className={styles.mobileBlock}>
-                            <Fade triggerOnce direction="up">
+                            <Fade duration={500} triggerOnce direction="up">
                                 <BenefitsAccordion/>
                             </Fade>
                         </div>
                         <div className={"col-6 " + styles.desktopBlock}>
-                            <Fade triggerOnce>
+                            <Fade duration={500} triggerOnce>
                                 <div className="row">
                                     <div className="col-6">
                                         <img className={styles.dot} src={dot}/>

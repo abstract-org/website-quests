@@ -7,7 +7,8 @@ export const MobileResearchBlock = () => {
         <div className={styles.screen}>
             <div className="container d-flex justify-content-center">
                 <div className={styles.researchBlock}>
-                    <Fade triggerOnce direction="left" delay={300} className={styles.block1}>
+                    {/*<Fade triggerOnce direction="left" delay={300} className={styles.block1}>*/}
+                    <div className={styles.block1}>
                         <div className={styles.text}>
                             <div className={"title_3 white_text " + styles.second_research_text}>
                                 A researcher creates a Research Block"
@@ -16,8 +17,10 @@ export const MobileResearchBlock = () => {
                                 Creating a Research Block is the beginning of a Quest.
                             </div>
                         </div>
-                    </Fade>
-                    <Fade triggerOnce direction="right" delay={600} className={styles.block2}>
+                    </div>
+                    {/*</Fade>*/}
+                    {/*<Fade triggerOnce direction="right" delay={600} className={styles.block2}>*/}
+                    <div className={styles.block2}>
                         <div className={styles.text}>
                             <div className={"title_3 white_text " + styles.second_research_text}>
                                 Anyone can invest in Research Blocks
@@ -26,8 +29,10 @@ export const MobileResearchBlock = () => {
                                 A Research Block increases in financial value as more people invest and build from it.
                             </div>
                         </div>
-                    </Fade>
-                    <Fade triggerOnce direction="left" delay={900} className={styles.block3}>
+                    </div>
+                    {/*</Fade>*/}
+                    {/*<Fade triggerOnce direction="left" delay={900} className={styles.block3}>*/}
+                    <div className={styles.block3}>
                         <div className={styles.text}>
                             <div className={"title_3 white_text " + styles.second_research_text}>
                                 A researcher / investor withdraws money
@@ -36,8 +41,10 @@ export const MobileResearchBlock = () => {
                                 Finance can support real world needs for researchers.
                             </div>
                         </div>
-                    </Fade>
-                    <Fade triggerOnce direction="right" delay={1200} className={styles.block4}>
+                    </div>
+                    {/*</Fade>*/}
+                    {/*<Fade triggerOnce direction="right" delay={1200} className={styles.block4}>*/}
+                    <div className={styles.block4}>
                         <div className={styles.text}>
                             <div className={"title_3 white_text " + styles.second_research_text}>
                                 Research Continues
@@ -46,7 +53,8 @@ export const MobileResearchBlock = () => {
                                 Research evolves. Researchers can grow, modify, link, expand and review Research Blocks. Important research can continue and be built upon seamlessly.
                             </div>
                         </div>
-                    </Fade>
+                    </div>
+                    {/*</Fade>*/}
                 </div>
             </div>
         </div>
