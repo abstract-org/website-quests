@@ -73,13 +73,13 @@ export const SignUp = () => {
 
     if(loading){
         return (
-            <div className={styles.loading + " regular_text2 white_text"}>Loading...</div>
+            <div className={styles.loading + " small_text white_text"}>Loading...</div>
         )
     }
 
     if(sent){
         return (
-            <div className={styles.sent + " regular_text2 white_text"}>
+            <div className={styles.sent + " small_text white_text"}>
                 <img src={envelop} alt="form sent"/>
                 <div>The form has been successfully sent, we are will contact you soon!</div>
             </div>
