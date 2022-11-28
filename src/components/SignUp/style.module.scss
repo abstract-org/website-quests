@@ -8,6 +8,26 @@
   margin-top: 20px !important;
 }
 
+.error{
+  color: red;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.loading{
+  text-align: center;
+  padding: 30px;
+}
+
+.sent{
+  text-align: center;
+  padding: 30px;
+  img{
+    width: 150px;
+    margin-bottom: 20px;
+  }
+}
+
 .input label{
   margin-left: 10px;
   font-size: 18px;
@@ -27,6 +47,12 @@
   color: #2A00A3 !important;
   text-transform: capitalize !important;
   box-shadow: none !important;
+}
+
+@media only screen and (max-width: 1400px) {
+  .button{
+    //width: 100%;
+  }
 }
 
 @media only screen and (max-width: 992px) {

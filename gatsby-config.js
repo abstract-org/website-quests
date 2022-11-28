@@ -40,13 +40,13 @@ module.exports = {
       options: {
         id: "GTM-WG6XTLK",
         includeInDevelopment: true,
-  
+
         // datalayer to be set before GTM is loaded
         // should be an object or a function that is executed in the browser
         //
         // Defaults to null
         defaultDataLayer: { platform: "dataLayer" },
-  
+
         // Name of the event that is triggered
         // on every Gatsby route change.
         //
